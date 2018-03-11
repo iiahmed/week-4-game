@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+        <title>Crystals Collector</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron" style="background-color: blue; color: white;">
+            <div class="container">
+                <h1 class="text-center">
+                    <strong>Crystals Collector</strong>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Instructions</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            <small>insert instructions here placeholder.....</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Target Score</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="target-score"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">CURRENT SCORE:</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="current-score"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dispay the crystals -->
+            <div class="col-lg-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Crystal Selection</h3>
+                    </div>
+                    <div class="panel-body text-center">
+                        <img src="images/blue.jpg" alt="" id="blue">
+                        <img src="images/green.jpg" alt="" id="green">
+                        <img src="images/red.jpg" alt="" id="red">
+                        <img src="images/yellow.jpg" alt="" id="yellow">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Win Count</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="text-center" id="count-win" ">0</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 ">
+					<div class="panel panel-primary ">
+						<div class="panel-heading ">
+							<h3 class="panel-title text-center ">Loss Count:</h3>
+						</div>
+						<div class="panel-body ">
+							<h3 class="text-center " id="count-loss ">0</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+
+		<!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+        
+		<!-- Main Game Logic  -->
+		<script src="logic.js "></script>
+	</body>
+</html>
